@@ -75,8 +75,4 @@ def add_method_to_instance(klass):
 
     return decorator
 
-# resort
-# planik
-# towarzyska
-# pawiluxy
-# rakieta
+
