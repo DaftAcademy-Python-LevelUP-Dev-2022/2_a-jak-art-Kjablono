@@ -3,9 +3,7 @@ from typing import Dict, List
 
 def greeter(func):
     def util_greeter(*args) -> str:
-        name: str = func(*args)
-        name = f'Aloha {name.title()}'
-        return name
+        return f'Aloha {func(*args).title()}'
 
     return util_greeter
 
@@ -76,3 +74,9 @@ def add_method_to_instance(klass):
         return util_add_method_to_instance
 
     return decorator
+
+# resort
+# planik
+# towarzyska
+# pawiluxy
+# rakieta
