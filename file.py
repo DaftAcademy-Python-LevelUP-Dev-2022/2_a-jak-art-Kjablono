@@ -39,7 +39,7 @@ def sums_of_str_elements_are_equal(func):
 
 def format_output(*required_keys):
     def decorator(func):
-        def util_formatter(*args):
+        def util_formatter(*args) -> Dict[str, str]:
             output: Dict[str, str] = dict()
             dict_to_format: Dict[str, str] = func(*args)
 
